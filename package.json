@@ -4,22 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "coverage": "npm run unit -- --cov --coverage-report=html",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "npm run lint && npm run unit",
+    "unit": "tap"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rstagi/mongo-crud-storage.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Roberto Stagi <me@rstagi.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rstagi/mongo-crud-storage/issues"
   },
   "homepage": "https://github.com/rstagi/mongo-crud-storage#readme",
-  "dependencies": {
-    "tap": "^16.0.1"
-  },
   "devDependencies": {
-    "eslint": "^8.13.0"
+    "eslint": "^8.1s3.0",
+    "pre-commit": "^1.2.2",
+    "tap": "^16.0.1"
   }
 }
