@@ -1,0 +1,25 @@
+{
+  "name": "mongo-crud-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstagi/mongo-crud-storage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rstagi/mongo-crud-storage/issues"
+  },
+  "homepage": "https://github.com/rstagi/mongo-crud-storage#readme",
+  "dependencies": {
+    "tap": "^16.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}
