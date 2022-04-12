@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/rstagi/mongo-crud-storage#readme",
   "devDependencies": {
-    "eslint": "^8.1s3.0",
+    "eslint": "^8.13.0",
     "pre-commit": "^1.2.2",
     "tap": "^16.0.1"
   }
